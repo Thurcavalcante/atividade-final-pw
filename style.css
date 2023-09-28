@@ -1,0 +1,18 @@
+h1,h2,h3{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+}
+body{
+    background-image: url('imagens/imagem_de_fundo.png');
+    background-attachment: fixed;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #FFFFFf;
+}
+a:hover, a:active{
+    color: orange;
+}

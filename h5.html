@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Página HTML</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+        <style type="text/css">
+            p{
+                font-size: 20px;
+                text-align: center;
+            }
+            .recuo{
+                text-indent: 50px;
+            }
+            p.ex{
+                text-align: center;
+            }
+            a:link{
+                background-color: red;
+                color: white;
+                padding: 14px 25px;
+                text-align: center;
+                display: inline-block;
+            }
+            a:hover{
+                background-color: darkred;
+            }
+            h1{
+                font-size: 50px;
+            }
+            h2{
+                font-size: 25px;
+            }
+            p.tabela{
+                text-align: center;
+            }
+            div.list{
+                color: white;
+                font-size: 15px;
+                margin-left: 400px;
+                font-size: 18px;
+            }
+            div.imagem{
+                text-align: center;
+            }
+            .imagem2{
+                text-align: center;
+            }
+            .imagem3{
+                text-align: center;
+            }
+            div table{
+                color: white;
+                border-color: white;
+                text-align: center;
+                margin-left: 650px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><a href="index.html">Voltar</a><a href="#sintaxe">Sintaxe</a><a href="#titulos">Títulos</a><a href="#paragrafos">Parágrafos</a><a href="#links">Links</a><a href="#tabelas">Tabelas</a></h2>
+        
+        <h1>HTML</h1>
+
+        <h2>O que é HTML?</h2>
+
+        <p class="recuo">HTML, significa Hyper Text Markup Language, "linguagem de marcação de hiper texto". Marcação padrão para a criação de páginas da web. 
+        Descreve a estrutura de uma página da web que consiste em uma série de elementos HTML, esses elementos informam ao navegador como exibir o conteúdo.
+         Os elementos identificam partes de conteúdo como "isto é um título", "isto é um parágrafo", "isto é um link", etc.</p>
+
+        <h2>Mas que é um elemento HTML?</h2>
+
+        <p>Um elemento HTML é definido por uma tag inicial, algum conteúdo e uma tag final: < tagname > O conteúdo vai aqui ... < / tagname >. O elemento HTML é tudo, desde a tag inicial até a tag final:
+
+            < h1 > Meu primeiro título < / h1 >
+            < p > Meu primeiro parágrafo. < / p >.</p>
+        
+            <h2>Criando a página</h2>
+
+            <div class="list">
+                <ul>
+                    <li>A < !DOCTYPE html > declaração define que este documento é um documento HTML5</li>
+                    <li>O < html > elemento é o elemento raiz de uma página HTML</li>
+                    <li>O < head > elemento contém metainformações sobre a página HTML</li>
+                    <li>O < title > elemento especifica um título para a página HTML <br>
+                    (que é mostrado na barra de título do navegador ou na guia da página)</li>
+                    <li>O < body > elemento define o corpo do documento e é um contêiner para todo o conteúdo <br>visível,
+                    como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc.</li>
+                    <li>O < h1 > elemento define um grande título</li>
+                    <li>O < p > elemento define um parágrafo</li>
+                </ul>
+            </div>
+
+         <h2>Estrutura da Página HTML</h2>
+
+        <div class="imagem">
+            <img src="Imagens/estrutura_html.png" alt="estrutura da pagina em html" width="600px" height="350">
+        </div>
+
+        <h2 id="sintaxe">Sintaxe</h2>
+
+        <p>A marcação é feita através das tags; Tags são palavras chaves cercadas pelos sinais < > Ex.: < html >. Normalmente vêm em pares como < b > e < /b >
+            Representam Início e Fim respectivamente; Alguns elementos HTML têm conteúdo vazio (ou seja, não tem a tag de fim e são fechados na própria tag de início) Exemplos: < br /> e < hr />.</p>
+        
+        <div class="imagem3">
+            <img src="imagens/sintaxe_html.png" alt="Sintaxe do HTML" width="" height=""/>
+        </div>
+
+        <h2 id="titulos">Títulos de Seleção</h2>
+
+        <p>Títulos HTML são títulos ou subtítulos que você deseja exibir em uma página da web. Os elementos do HTML, representam seis níveis de títulos de seção. Começando de < h1 > a < h6 >. Sendo < h1 > o nível de seção mais alto e < h6 > o nível mais baixo.</p>
+        
+        <p class="ex"><br>
+            < h1 >Exemplo 1< /h1 ><br>
+            < h2 >Exemplo 2< /h2 ><br>
+            < h3 >Exemplo 3< /h3 ><br>
+            < h4 >Exemplo 4< /h4 ><br>
+            < h5 >Exemplo 5< /h5 ><br>
+            < h6 >Exemplo 6< /h6 ><br>
+        </p>
+
+        <div class="imagem2">
+            <img src="imagens/titulos_html.png" alt="Titulos de selecao em HTML">
+        </div>
+
+        <p class="recuo">Títulos são importantes, os mecanismos de pesquisa usam os títulos para indexar a estrutura e o conteúdo de suas páginas da web. Os usuários costumam folhear uma página por seus títulos. É importante usar cabeçalhos para mostrar a estrutura do documento. < h1 >os cabeçalhos devem ser usados ​​para os cabeçalhos principais, seguidos dos < h2 > cabeçalhos, depois os menos importantes < h3 >e assim por diante.</p>
+
+        <h2>Como se cria títulos de seção na página?</h2>
+        
+        <p class="recuo">Então, basta digitar no seu editor de codigos um dos seis tipos de títulos de seção que vai lher servir melhor. É importante lembrar que, quando for criar o título de seção, colocar ele dentro da tag "body" Por exemplo: Para usar o título "h1", é como a maioria das outras tags em HTML. Ou seja, existe a tag de abertura < h1 > e a tag de fechamento < /h1 >, e o título é o texto que você vai colocar entre essas tags. Essas tags devem estar aninhadas dentro das tags < body > e < /body >.</p>
+        
+        <img src="" alt="" width="" height=""/>
+        
+
+        <h2 id="paragrafos">Parágrafos</h2>
+        
+        <p>Um parágrafo sempre começa em uma nova linha e geralmente é um bloco de texto. O < p > elemento HTML define um parágrafo. Um parágrafo sempre começa em uma nova linha e os navegadores adicionam automaticamente algum espaço em branco (uma margem) antes e depois de um parágrafo.</p>
+        
+        <p>Exemplo:<br>< p >Este é um parágrafo< /p ><br>< p >Este também é um parágrafo< /p >.</p>
+        
+        <h3>Quebras de linhas</h3>
+        
+        <p>A tag < br > define uma quebra de linha. Use < br >se quiser uma quebra de linha (uma nova linha) sem iniciar um novo parágrafo:</p>
+        
+        <p>Exemplo:<br>< p >Este é um parágrafo<br>< br >com quebra de linha< /p >.</p>
+        
+        <img src="" alt="" width="" height=""/>
+
+        <h2 id="links">Links HTML - Hiperlinks</h2>
+        
+        <p>Os links HTML são hiperlinks. Você pode clicar em um link e pular para outro documento. Quando você move o mouse sobre um link, a seta do mouse se transforma em uma pequena mão.</p>
+
+        <p>A tag < a > define um hiperlink. O atributo mais importante do < a > elemento é o "href" atributo, que indica o destino do link. 
+        O texto do link é a parte que ficará visível ao leitor. Clicar no texto do link enviará o leitor para o endereço URL especificado.</p>
+
+        <p>Exemplo:<br>
+        < a href="https://www.google.com/">Clique aqui para ir para o Google</a>< /a ></p>
+        <p></p>
+        <p></p>
+
+        <h2 id="tabelas">Tabelas</h2>
+        <p>As tabelas permitem que os desenvolvedores da web organizem os dados em linhas e colunas. A tag < table > define uma tabela.</p>
+
+        <p>Cada linha da tabela é definida com uma < tr > tag. Cada cabeçalho da tabela é definido com uma < th > tag. Cada dado / célula da tabela é definido com uma < td > tag.        </p>
+        
+        <p>Por padrão, o texto nos < th > elementos está em negrito e centralizado.
+            Por padrão, o texto nos < td > elementos é regular e alinhado à esquerda. Exemplo a baixo:</p>
+        
+        <p class="tabela"><br>
+            < table ><br>
+                < tr ><br>
+                    < th >Nome< /th ><br>
+                    < th >Sobrenome< /th ><br>
+                    < th >Idade< /th ><br>
+                < /tr ><br>
+                < tr ><br>
+                    < td >João< /td ><br>
+                    < td >Gomes< /td ><br>
+                    < td >18 anos< /td ><br>
+                < /tr ><br>
+                < tr ><br>
+                    < td >Caetano< /td ><br>
+                    < td >Veloso< /td ><br>
+                    < td >78 anos< /td ><br>
+                < /tr ><br>
+            < /table >
+        </p>
+
+        <div>
+            <table border="1px">
+                <tr>
+                  <th>Nome</th>
+                  <th>Sobrenome</th>
+                  <th>Idade</th>
+                </tr>
+                <tr>
+                  <td>João</td>
+                  <td>Gomes</td>
+                  <td>18 anos</td>
+                </tr>
+                <tr>
+                  <td>Caetano</td>
+                  <td>Veloso</td>
+                  <td>78 anos</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>Referência</h2>
+
+        <p><a href="https://www.w3schools.com/html/html_intro.asp">HTML Referência</a></p>
+    </body>
+</html>

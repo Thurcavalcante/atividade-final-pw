@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Página Atividade</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+        <style type="text/css">
+            p{
+                text-align: center;
+                font-size: 20px;
+            }
+            h1{
+                font-size: 50px;
+            }
+            h2{
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="resposta.php" method="get">
+            <a href="index.html">Voltar</a>
+            
+            <h1>Atividade</h1>
+            
+
+            <h2>Resposta da atividade:</h2>
+            
+            <p>O que significa a sigla HTML?<br>
+                <label for="resposta"></label>
+                <input type="text" name="resposta" id="resposta" autofocus required/>
+            </p>
+
+            <p>Qual propriedade do CSS serve para a estilização da cor de texto?<br>
+                <label for="resposta"></label>
+                <input type="text" name="resposta" id="resposta" required/>
+            </p>
+
+             <p>Qual propriedade do CSS serve para dar cor ao texto?<br>
+                <label for="resposta"></label>
+                <textarea rows="2" cols="20" name="resposta" id="resposta" required></textarea>
+             </p>
+
+             <p>Quais Tags do HTML você mais gostou<br/>
+                <input type="checkbox" name="linguagem[]" value="HTML" id="html"/>
+                <label for="html">Tabelas</label><br/>
+   
+                <input type="checkbox" name="linguagem[]" value="CSS" id="css"/>
+                <label for="css">Titulos</label><br/>
+   
+                <input type="checkbox" name="linguagem[]" value="JAVA" id="java"/>
+                <label for="java">Links</label><br/>
+   
+                <input type="checkbox" name="linguagem[]" value="PHP" id="php"/>
+                <label for="php">Parágrafos</label><br/>
+             </p>
+
+             <p>O CSS é uma:<br/>
+                 <input type="radio" name="trabalho" value="Home Office" id="homeoffice"/>
+                 <label for="homeoffice">Liguagem de Marcação</label><br/>
+    
+                 <input type="radio" name="trabalho" value="Presencial" id="presencial"/>
+                 <label for="presencial">Linguagem de Estilozação</label><br/>
+ 
+                 <input type="radio" name="trabalho" value="Presencial" id="presencial"/>
+                 <label for="presencial">Linguagem de Progrmação</label><br/>
+              </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </body>
+</html>
